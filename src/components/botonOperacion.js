@@ -21,11 +21,7 @@ export class BotonOperacion extends LitElement {
 
   render() {
     return html`
-      <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      />
-
+      <link rel="stylesheet" href="./src/vendor/bootstrap/css/bootstrap.min.css">
       <button class="btn btn-light" @click=${this.handleClick}>
         ${this.op}
       </button>
